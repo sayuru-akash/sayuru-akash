@@ -15,11 +15,11 @@ const sayu = {
   pronouns: "he" | "him",
   code: [Javascript, HTML, CSS, C, Java],
   tools: [WordPress, Visual Studio],
-  architecture: ["microservices", "event-driven", "design system pattern"],
-  techCommunities: {
-                        coorganizer: "",
-                        speaker: "",
-                        mentor: ""
+  architecture: ["microservices", "creative-content", "designing"],
+  Other: {
+                        podcast host: "HMM with Sayuru & Chanuka",
+                        artist label: "Sayuru Akash Music",
+                        writing platform: "Blogger"
                       },
  challenge: "I am doing the #100DaysOfCode challenge focused on html and wordpress"
 }
