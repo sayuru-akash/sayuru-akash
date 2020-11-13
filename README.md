@@ -17,15 +17,15 @@ const sayu = {
   tools: [WordPress, Visual Studio],
   architecture: ["microservices", "creative-content", "designing"],
   Other: {
-                        podcast-host: "HMM with Sayuru & Chanuka",
-                        artist-label: "Sayuru Akash Music",
-                        writing-platform: "Blogger"
+                        podcast host: "HMM with Sayuru & Chanuka",
+                        artist label: "Sayuru Akash Music",
+                        writing platform: "Blogger"
                       },
  challenge: "I am doing the #100DaysOfCode challenge focused on html and wordpress"
 }
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to know you more!</b> :)</em>
 
 ---
 
