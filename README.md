@@ -1,5 +1,5 @@
 <h2> Hi, I'm Sayuru Akash! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="230">
+<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="230">
 <p><em>Software Enginnering Undergraduate at <a href="http://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Freelancing <a href="https://www.sayuru.me">Online</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
@@ -17,9 +17,9 @@ const sayu = {
   tools: [WordPress, Visual Studio],
   architecture: ["microservices", "creative-content", "designing"],
   Other: {
-                        podcast host: "HMM with Sayuru & Chanuka",
-                        artist label: "Sayuru Akash Music",
-                        writing platform: "Blogger"
+                        podcast-host: "HMM with Sayuru & Chanuka",
+                        artist-label: "Sayuru Akash Music",
+                        writing-platform: "Blogger"
                       },
  challenge: "I am doing the #100DaysOfCode challenge focused on html and wordpress"
 }
