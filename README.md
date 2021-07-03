@@ -11,17 +11,17 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
 ```javascript
-const sayu = {
+const sayuru = {
   pronouns: "he" | "him",
-  code: [Javascript, HTML, CSS, C, Java],
-  tools: [WordPress, Visual Studio],
-  architecture: ["microservices", "creative-content", "designing"],
+  language: [HTML, CSS, Javascript, PHP, SQL, C, C#, Flutter],
+  editor: [Visual Studio, VS Code],
+  services: [Google Cloud, MS Azure],
+  architecture: ["backend-development", "creative-content", "designing"],
   Other: {
                         podcast host: "HMM with Sayuru & Chanuka",
-                        artist label: "Sayuru Akash Music",
-                        writing platform: "Blogger"
+                        writing: "Web-content, Creative-content"
                       },
- challenge: "I am doing the #100DaysOfCode challenge focused on html and wordpress"
+ challenge: "I am doing the #100DaysOfCode challenge focused on flutter"
 }
 ```
 
