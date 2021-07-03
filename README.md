@@ -1,6 +1,9 @@
 <h2> Hi, I'm Sayuru Akash! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="230">
-<p><em>Software Enginnering Undergraduate at <a href="http://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Freelancing <a href="https://www.sayuru.me">Online</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+<p><em>
+     Software Enginnering Undergraduate at <a href="http://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
+     CEO & CO-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
+     Freelancing <a href="https://www.sayuru.me">Online</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 </em></p>
 
 [![Twitter: Sayuru_Akash](https://img.shields.io/twitter/follow/sayuru_akash?style=social)](https://twitter.com/Sayuru_Akash)
