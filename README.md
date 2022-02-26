@@ -27,7 +27,10 @@ const sayuru = {
  challenge: "I am doing the #100DaysOfCode challenge focused on flutter"
 }
 ```
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash)](https://github.com/sayuru-akash/github-readme-stats)
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My GitHub Status...  
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to know you more!</b> :)</em>
 
