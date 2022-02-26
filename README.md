@@ -1,5 +1,5 @@
 <h2> Hi, I'm Sayuru Akash! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="180">
+<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="240">
 <p><em>
      Software Enginnering Undergraduate at <a href="https://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
      CEO & CO-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/QvqlaGSxsy89KWNKF5/giphy.gif" width="30"></br>
@@ -31,6 +31,8 @@ const sayuru = {
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My GitHub Status...  
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sayuru-akash&layout=compact&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to know you more!</b> :)</em>
 
