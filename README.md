@@ -11,7 +11,7 @@
 [![GitHub Sayuru-Akash](https://img.shields.io/github/followers/sayuru-akash?label=follow&style=social)](https://github.com/sayuru-akash)
 
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A Little More About Me...  
 
 ```javascript
 const sayuru = {
@@ -28,7 +28,7 @@ const sayuru = {
 }
 ```
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My GitHub Status...  
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My GitHub Stats...  
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
