@@ -1,5 +1,5 @@
 <h2> Hi, I'm Sayuru Akash! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="240">
+<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="200">
 <p><em>
      Software Enginnering Undergraduate at <a href="https://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
      CEO & CO-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/QvqlaGSxsy89KWNKF5/giphy.gif" width="30"></br>
