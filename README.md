@@ -18,7 +18,7 @@ const sayuru = {
   pronouns: "he" | "him",
   skills: [HTML, CSS, Javascript, PHP, Laravel, SQL, C, C#, Java, ASP.NET, JSP, Kotlin, Flutter],
   beginner: [React, Solidity, Truffle],
-  tools: [WordPress, Webflow, Notion, Shopify]]
+  tools: [WordPress, Webflow, Notion, Shopify],
   editor: [VS Code, Android Studio],
   services: [My/MSSQL, Firebase, Google Cloud, MS Azure],
   architecture: ["full-stack-development", "quality-assurance"],
