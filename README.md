@@ -2,7 +2,7 @@
 <img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="240">
 <p><em>
      Software Enginnering Undergraduate at <a href="https://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30" height="30"></br>
-     CEO & CO-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
+     CEO & Co-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
      Freelance Developer <a href="https://www.sayuru.me">Online</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" height="30">
 </em></p>
 
@@ -16,15 +16,17 @@
 ```javascript
 const sayuru = {
   pronouns: "he" | "him",
-  language: [HTML, CSS, Javascript, PHP, SQL, C, C#, Flutter],
-  editor: [Visual Studio, VS Code],
-  services: [Google Cloud, MS Azure],
-  architecture: ["backend-development", "creative-content", "designing"],
+  skills: [HTML, CSS, Javascript, PHP, Laravel, SQL, C, C#, Java, ASP.NET, JSP, Kotlin, Flutter],
+  beginner: [React, Solidity, Truffle],
+  tools: [WordPress, Webflow, Notion, Shopify]]
+  editor: [VS Code, Android Studio],
+  services: [My/MSSQL, Firebase, Google Cloud, MS Azure],
+  architecture: ["full-stack-development", "quality-assurance"],
   Other: {
-                        podcast host: "HMM with Sayuru & Chanuka",
-                        writing: "Web-content, Creative-content"
-                      },
- challenge: "I am doing the #100DaysOfCode challenge focused on flutter"
+             podcast host: "HMM with Sayuru & Chanuka",
+             writer: "Web-content & Articles"
+},
+ challenge: "I'm doing #learnDaily challenge focused on react.JS"
 }
 ```
 
