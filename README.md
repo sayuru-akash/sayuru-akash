@@ -49,3 +49,6 @@ const sayuru = {
      Download the PDF version of my cv at <a href="https://sayuru.dev/sayurus-resume-brief.pdf">sayurus-cv.pdf</a> <img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
      View the digital version of my cv at <a href="https://sayuru-akash.github.io">sayuru-akash.github.io</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" height="30">
 </p>
+</br>
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/sayuru_akash)
