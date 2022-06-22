@@ -23,7 +23,7 @@ const sayuru = {
   services: [My/MSSQL, Firebase, Google Cloud, MS Azure],
   architecture: ["full-stack-development", "quality-assurance"],
   Other: {
-             podcast host: "HMM with Sayuru & Chanuka",
+             podcast-host: "HMM with Sayuru & Chanuka",
              writer: "Web-content & Articles"
 },
  challenge: "I'm doing #learnDaily challenge focused on react.JS"
