@@ -1,9 +1,9 @@
 <h2> Hi, I'm Sayuru Akash! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="240">
+<img align='right' src="https://media1.tenor.com/images/b966ebe108e1ce2dfe13238ed6757ea4/tenor.gif?itemid=12229643" width="180">
 <p><em>
-     Software Enginnering Undergraduate at <a href="https://www.nsbm.ac.lk">NSBM Green University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30" height="30"></br>
-     CEO & Co-Founder at <a href="https://codezela.com">Codezela Technologies</a><img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
-     Freelance Developer <a href="https://www.sayuru.me">Online</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" height="30">
+     Software Enginnering Undergraduate at <a href="https://www.nsbm.ac.lk">NSBM Green University</a> <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30" height="30"></br>
+     CEO & Co-Founder at <a href="https://codezela.com">Codezela Technologies</a> <img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
+     Freelance Developer <a href="https://www.sayuru.me">Online</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" height="30">
 </em></p>
 
 [![Twitter: Sayuru_Akash](https://img.shields.io/twitter/follow/sayuru_akash?style=social)](https://twitter.com/Sayuru_Akash)
@@ -41,3 +41,11 @@ const sayuru = {
 ---
 
 ⭐️ From [@Sayuru-Akash](https://github.com/sayuru-akash)
+
+---
+
+<p>
+     Visit the interesting version of my portfolio at <a href="https://sayuru.dev">sayuru.dev</a> <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30" height="30"></br>
+     Download the PDF version of my cv at <a href="https://sayuru.dev/sayurus-resume-brief.pdf">sayurus-cv.pdf</a> <img src="https://media.giphy.com/media/fDCH4QFi73SEQqapBp/giphy.gif" width="30" height="30"></br>
+     View the digital version of my cv at <a href="https://sayuru-akash.github.io">sayuru-akash.github.io</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" height="30">
+</p>
