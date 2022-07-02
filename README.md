@@ -36,7 +36,7 @@ const sayuru = {
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sayuru-akash&layout=compact&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
-[![Spotify](https://readme-spotify-dynamic.vercel.app/api/spotify)](https://open.spotify.com/user/s1c1iennl2qq5u5apk66dfvxv)
+[![Spotify](https://readme-spotify-dynamic.vercel.app/api/spotify?background_color=141321&border_color=E4E2E2))](https://open.spotify.com/user/s1c1iennl2qq5u5apk66dfvxv)
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to know you more!</b> :)</em>
 
