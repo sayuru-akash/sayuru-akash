@@ -1,0 +1,27 @@
+name: Generate Contribution Snake
+
+on:
+  schedule: # Runs once a day at midnight
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3.3.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: 'chore: update github contribution snake'
+          add: 'dist/*.svg'
