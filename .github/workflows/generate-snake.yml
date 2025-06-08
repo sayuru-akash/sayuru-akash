@@ -1,7 +1,7 @@
 name: Generate Contribution Snake
 
 on:
-  schedule: # Runs once a day at midnight
+  schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -11,12 +11,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
+      - name: Generate light mode Snake SVG
         uses: Platane/snk@v3.3.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-snake.svg
+          color_snake: '#0099ff'
+          color_dots: '#b3b3b3,#dedede,#ffffff,#fafafa'
+          
+      - name: Generate dark mode Snake SVG
+        uses: Platane/snk@v3.3.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake-dark.svg
+          color_snake: '#00ff99'
+          color_dots: '#222434,#36393e,#4e5057,#636466'
+          color_bg: '#161b22'
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
