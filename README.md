@@ -17,22 +17,57 @@
 ```javascript
 const sayuru = {
   pronouns: "he" | "him",
-  skills: [
-    "Python", "NextJs", "ReactJs", "Express", "NodeJs", "Laravel",
+  roles: [
+    "CEO @ Codezela Technologies",
+    "Full-Stack Developer",
+    "SEO Specialist",
+    "Tech Mentor",
+    "Content Writer",
+    "Podcast Host"
+  ],
+  stack: [
+    "Python", "Next.js", "React.js", "Express.js", "Node.js", "Laravel",
     "Typescript", "Java", "JSP", "C#", "ASP.NET", "Kotlin", "Flutter", "Jest"
   ],
-  beginner: ["Solidity", "Truffle", "Astro"],
-  tools: ["WordPress", "Webflow", "Notion", "Shopify"],
-  editors: ["VS Code", "IntelliJ IDEA", "Android Studio"],
-  databases: ["MongoDB", "SQL", "Firebase"],
-  cloud: ["Google Cloud", "MS Azure"],
-  architecture: ["full-stack development", "QA"],
-  other: {
-    podcast_host: "HMM with Sayuru & Chanuka",
-    writer: "Web content & articles"
+  tools: [
+  "WordPress", "Webflow", "Shopify", "Notion", "Figma", "Canva",
+  "Jira", "Trello", "ClickUp",
+  "Mailchimp", "SendGrid", "Brevo",
+  "GitHub", "GitLab", "Bitbucket", "Google Workspace", "Microsoft 365",
+  "phpMyAdmin", "Postman", "Insomnia",
+  "Google Analytics", "Google Search Console", "Ahrefs", "SEMrush",
+  "cPanel", "Plesk", 
+  "Stripe", "PayPal", "Zapier", "Make"
+  ],
+  editors: [
+    "VS Code", "IntelliJ IDEA", "Android Studio", "PhpStorm", "DataGrip"
+  ],
+  databases: [
+    "MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase", "Supabase"
+  ],
+  cloud: [
+    "Google Cloud", "Microsoft Azure", "Vercel", "Netlify", "DigitalOcean"
+  ],
+  skills: [
+    "Full-Stack Web & Mobile Development",
+    "API Design & Integration",
+    "SEO & Digital Marketing",
+    "Technical Writing",
+    "UI/UX Design"
+  ],
+  experience: {
+    leadership: "Leading dev teams & scaling startups",
+    mentoring: "Guiding interns and junior devs",
+    seo: "Building SEO strategies for brands & clinics",
+    content: "Writing for web, blogs, and proposals"
   },
-  challenge: "Currently building with Next.js & Python daily"
+  highlights: {
+    podcast: "Host @ HMM with Sayuru & Chanuka",
+    blog: "Published SEO & tech articles",
+  },
+  challenge: "Currently building and scaling SaaS products, and exploring AI-driven web solutions with Next.js and Python."
 }
+
 ````
 
 ---
