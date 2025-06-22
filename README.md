@@ -29,18 +29,40 @@ const sayuru = {
     "Python", "Next.js", "React.js", "Express.js", "Node.js", "Laravel",
     "Typescript", "Java", "JSP", "C#", "ASP.NET", "Kotlin", "Flutter", "Jest"
   ],
-  tools: [
-  "WordPress", "Webflow", "Shopify", "Notion", "Figma", "Canva",
-  "Jira", "Trello", "ClickUp",
-  "Mailchimp", "SendGrid", "Brevo",
-  "GitHub", "GitLab", "Bitbucket", "Google Workspace", "Microsoft 365",
-  "phpMyAdmin", "Postman", "Insomnia",
-  "Google Analytics", "Google Search Console", "Ahrefs", "SEMrush",
-  "cPanel", "Plesk", 
-  "Stripe", "PayPal", "Zapier", "Make"
-  ],
+  tools: {
+    design_branding: [
+      "Figma", "Canva", "Illustrator", "Photoshop"
+    ],
+    web_ecommerce: [
+      "WordPress", "Webflow", "Shopify"
+    ],
+    productivity_collaboration: [
+      "Notion", "Zoho", "Google Workspace", "Microsoft 365"
+    ],
+    project_management: [
+      "Jira", "Trello", "ClickUp"
+    ],
+    marketing_email: [
+      "Mailchimp", "SendGrid", "Brevo"
+    ],
+    version_control_devops: [
+      "GitHub", "GitLab"
+    ],
+    api_db_tools: [
+      "Postman", "Insomnia", "phpMyAdmin"
+    ],
+    analytics_seo: [
+      "Google Analytics", "Google Search Console", "Ahrefs", "SEMrush"
+    ],
+    hosting_payments: [
+      "cPanel", "Plesk", "Stripe", "PayPal"
+    ],
+    automation: [
+      "Zapier", "Make"
+    ]
+  },
   editors: [
-    "VS Code", "IntelliJ IDEA", "Android Studio", "PhpStorm", "DataGrip"
+    "VS Code", "IntelliJ IDEA", "Android Studio", "PhpStorm", "PyCharm", "DataGrip"
   ],
   databases: [
     "MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase", "Supabase"
