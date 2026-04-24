@@ -23,97 +23,113 @@ const sayuru = {
     "SEO Specialist",
     "Tech Mentor",
     "Content Writer",
-    "Podcast Host"
+    "Podcast Host",
   ],
   stack: [
-    "Python", "Next.js", "React.js", "Express.js", "Node.js", "Laravel",
-    "Typescript", "Java", "JSP", "C#", "ASP.NET", "Kotlin", "Flutter", "Jest"
+    "Python",
+    "Next.js",
+    "React.js",
+    "Express.js",
+    "Node.js",
+    "Laravel",
+    "Typescript",
+    "Java",
+    "JSP",
+    "C#",
+    "ASP.NET",
+    "Kotlin",
+    "Flutter",
+    "Jest",
   ],
   tools: {
-    design_branding: [
-      "Figma", "Canva", "Illustrator", "Photoshop"
-    ],
-    web_ecommerce: [
-      "WordPress", "Webflow", "Shopify"
-    ],
+    design_branding: ["Figma", "Canva", "Illustrator", "Photoshop"],
+    web_ecommerce: ["WordPress", "Webflow", "Shopify"],
     productivity_collaboration: [
-      "Notion", "Zoho", "Google Workspace", "Microsoft 365"
+      "Notion",
+      "Zoho",
+      "Google Workspace",
+      "Microsoft 365",
     ],
-    project_management: [
-      "Jira", "Trello", "ClickUp"
-    ],
-    marketing_email: [
-      "Mailchimp", "SendGrid", "Brevo"
-    ],
-    version_control_devops: [
-      "GitHub", "GitLab"
-    ],
-    api_db_tools: [
-      "Postman", "Insomnia", "phpMyAdmin"
-    ],
+    project_management: ["Jira", "Trello", "ClickUp"],
+    marketing_email: ["Mailchimp", "SendGrid", "Brevo"],
+    version_control_devops: ["GitHub", "GitLab"],
+    api_db_tools: ["Postman", "Insomnia", "phpMyAdmin"],
     analytics_seo: [
-      "Google Analytics", "Google Search Console", "Ahrefs", "SEMrush"
+      "Google Analytics",
+      "Google Search Console",
+      "Ahrefs",
+      "SEMrush",
     ],
-    hosting_payments: [
-      "cPanel", "Plesk", "Stripe", "PayPal"
-    ],
-    automation: [
-      "Zapier", "Make"
-    ]
+    hosting_payments: ["cPanel", "Plesk", "Stripe", "PayPal"],
+    automation: ["Zapier", "Make"],
   },
   editors: [
-    "VS Code", "IntelliJ IDEA", "Android Studio", "PhpStorm", "PyCharm", "DataGrip"
+    "VS Code",
+    "IntelliJ IDEA",
+    "Android Studio",
+    "PhpStorm",
+    "PyCharm",
+    "DataGrip",
   ],
   databases: [
-    "MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase", "Supabase"
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "SQL Server",
+    "Firebase",
+    "Supabase",
   ],
   cloud: [
-    "Google Cloud", "Microsoft Azure", "Vercel", "Netlify", "DigitalOcean"
+    "Google Cloud",
+    "Microsoft Azure",
+    "Vercel",
+    "Netlify",
+    "DigitalOcean",
   ],
   skills: [
     "Full-Stack Web & Mobile Development",
     "API Design & Integration",
     "SEO & Digital Marketing",
     "Technical Writing",
-    "UI/UX Design"
+    "UI/UX Design",
   ],
   experience: {
     leadership: "Leading dev teams & scaling startups",
     mentoring: "Guiding interns and junior devs",
     seo: "Building SEO strategies for brands & clinics",
-    content: "Writing for web, blogs, and proposals"
+    content: "Writing for web, blogs, and proposals",
   },
   highlights: {
     podcast: "Host @ HMM with Sayuru & Chanuka",
     blog: "Published SEO & tech articles",
   },
-  challenge: "Currently building and scaling SaaS products, and exploring AI-driven web solutions with Next.js and Python."
-}
-
-````
+  challenge:
+    "Currently building and scaling SaaS products, and exploring AI-driven web solutions with Next.js and Python.",
+};
+```
 
 ---
 
 ### <img src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif" width="50"> Fun Facts
 
-* My go-to code fuel: coffee and ,maybe, matcha!
-* I host a podcast for the vibes and the chaos, not just the tech
-* Favourite escape: binge-watching sci-fi, binging on pure ceylon tea, and a little lowkey extrovert, sometimes!
-* Most likely to be found rethinking my Choices at 2AM for no reason :lol 
+- My go-to code fuel: coffee and ,maybe, matcha!
+- I host a podcast for the vibes and the chaos, not just the tech
+- Favourite escape: binge-watching sci-fi, binging on pure ceylon tea, and a little lowkey extrovert, sometimes!
+- Most likely to be found rethinking my Choices at 2AM for no reason :lol
 
 ---
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My GitHub Stats
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash\&theme=radical\&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=sayuru-akash&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sayuru-akash\&layout=compact\&theme=radical\&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sayuru-akash&layout=compact&theme=radical&show_icons=true)](https://github.com/sayuru-akash/github-readme-stats)
 
 ---
 
 ### <img src="https://media4.giphy.com/media/h7deZA51Ru9pwzlz0C/giphy.gif" width="50"> Last Seen Vibing To...
 
-[![Spotify](https://readme-spotify-dynamic.vercel.app/api/spotify?background_color=141321\&border_color=E4E2E2)](https://open.spotify.com/user/s1c1iennl2qq5u5apk66dfvxv)
+[![Spotify](https://readme-spotify-dynamic.vercel.app/api/spotify?background_color=141321&border_color=E4E2E2)](https://open.spotify.com/user/s1c1iennl2qq5u5apk66dfvxv)
 
 ---
 
@@ -124,7 +140,6 @@ const sayuru = {
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg" />
 </picture>
-
 
 ---
 
@@ -140,4 +155,4 @@ const sayuru = {
 
 ---
 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge\&logo=buy-me-a-coffee\&logoColor=black)](https://www.buymeacoffee.com/sayuru_akash)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/sayuru_akash)

@@ -49,5 +49,5 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: 'chore: update github contribution snake'
-          add: 'dist/github-snake.svg dist/github-snake-dark.svg'
+          message: "chore: update github contribution snake"
+          add: "dist/github-snake.svg dist/github-snake-dark.svg"

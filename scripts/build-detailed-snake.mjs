@@ -3,7 +3,20 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
 const DAYS = [
   { full: "Sunday", short: "Sun" },
   { full: "Monday", short: "Mon" },
@@ -11,7 +24,7 @@ const DAYS = [
   { full: "Wednesday", short: "Wed" },
   { full: "Thursday", short: "Thu" },
   { full: "Friday", short: "Fri" },
-  { full: "Saturday", short: "Sat" }
+  { full: "Saturday", short: "Sat" },
 ];
 
 const THEMES = {
@@ -21,7 +34,7 @@ const THEMES = {
     title: "#24292f",
     text: "#57606a",
     subtle: "#656d76",
-    legend: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
+    legend: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
   },
   dark: {
     bg: "#0d1117",
@@ -29,8 +42,8 @@ const THEMES = {
     title: "#c9d1d9",
     text: "#8b949e",
     subtle: "#8b949e",
-    legend: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-  }
+    legend: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+  },
 };
 
 function parseArgs(argv) {
@@ -62,20 +75,28 @@ function escapeXml(value) {
 }
 
 function toUtcDate(date) {
-  return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  return new Date(
+    Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()),
+  );
 }
 
 function buildMonthLabels(startDate, endDate, calendarStart) {
   const labels = [{ label: MONTHS[startDate.getUTCMonth()], weekIndex: 0 }];
 
-  let cursor = new Date(Date.UTC(startDate.getUTCFullYear(), startDate.getUTCMonth() + 1, 1));
+  let cursor = new Date(
+    Date.UTC(startDate.getUTCFullYear(), startDate.getUTCMonth() + 1, 1),
+  );
   while (cursor <= endDate) {
-    const weekIndex = Math.floor((cursor.getTime() - calendarStart.getTime()) / (7 * DAY_MS));
+    const weekIndex = Math.floor(
+      (cursor.getTime() - calendarStart.getTime()) / (7 * DAY_MS),
+    );
     const last = labels[labels.length - 1];
     if (weekIndex >= 0 && (!last || weekIndex - last.weekIndex >= 2)) {
       labels.push({ label: MONTHS[cursor.getUTCMonth()], weekIndex });
     }
-    cursor = new Date(Date.UTC(cursor.getUTCFullYear(), cursor.getUTCMonth() + 1, 1));
+    cursor = new Date(
+      Date.UTC(cursor.getUTCFullYear(), cursor.getUTCMonth() + 1, 1),
+    );
   }
 
   return labels;
@@ -90,7 +111,7 @@ async function fetchContributionTotal(username, token) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `bearer ${token}`
+      Authorization: `bearer ${token}`,
     },
     body: JSON.stringify({
       query: `query($login: String!) {
@@ -102,8 +123,8 @@ async function fetchContributionTotal(username, token) {
           }
         }
       }`,
-      variables: { login: username }
-    })
+      variables: { login: username },
+    }),
   });
 
   if (!response.ok) {
@@ -111,23 +132,30 @@ async function fetchContributionTotal(username, token) {
   }
 
   const payload = await response.json();
-  const total = payload?.data?.user?.contributionsCollection?.contributionCalendar?.totalContributions;
+  const total =
+    payload?.data?.user?.contributionsCollection?.contributionCalendar
+      ?.totalContributions;
   return Number.isFinite(total) ? total : null;
 }
 
 const args = parseArgs(process.argv.slice(2));
 
 if (!args.input || !args.output) {
-  throw new Error("Usage: node scripts/build-detailed-snake.mjs --input <input.svg> --output <output.svg> [--theme light|dark] [--username name]");
+  throw new Error(
+    "Usage: node scripts/build-detailed-snake.mjs --input <input.svg> --output <output.svg> [--theme light|dark] [--username name]",
+  );
 }
 
 const theme = args.theme === "dark" ? "dark" : "light";
 const palette = THEMES[theme];
-const username = args.username || process.env.GITHUB_REPOSITORY_OWNER || "github-user";
+const username =
+  args.username || process.env.GITHUB_REPOSITORY_OWNER || "github-user";
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 
 const source = await readFile(args.input, "utf8");
-const match = source.match(/<svg[^>]*viewBox="([^"]+)"[^>]*>([\s\S]*)<\/svg>\s*$/i);
+const match = source.match(
+  /<svg[^>]*viewBox="([^"]+)"[^>]*>([\s\S]*)<\/svg>\s*$/i,
+);
 if (!match) {
   throw new Error(`Could not parse SVG: ${args.input}`);
 }
@@ -135,15 +163,24 @@ if (!match) {
 const baseViewBox = match[1];
 const innerSvg = match[2].replace(/<desc>[\s\S]*?<\/desc>/gi, "");
 
-if (source.includes('class="card-bg"') || source.includes(">Contribution Graph<")) {
+if (
+  source.includes('class="card-bg"') ||
+  source.includes(">Contribution Graph<")
+) {
   throw new Error(
-    `Input appears to be an already wrapped detailed SVG (${args.input}). Use raw snk output (for example dist/.snake-base.svg).`
+    `Input appears to be an already wrapped detailed SVG (${args.input}). Use raw snk output (for example dist/.snake-base.svg).`,
   );
 }
 
-const [viewX, viewY, viewWidth, viewHeight] = baseViewBox.split(/\s+/).map((value) => Number.parseFloat(value));
+const [viewX, viewY, viewWidth, viewHeight] = baseViewBox
+  .split(/\s+/)
+  .map((value) => Number.parseFloat(value));
 
-if (![viewX, viewY, viewWidth, viewHeight].every((value) => Number.isFinite(value))) {
+if (
+  ![viewX, viewY, viewWidth, viewHeight].every((value) =>
+    Number.isFinite(value),
+  )
+) {
   throw new Error(`Invalid viewBox in ${args.input}: ${baseViewBox}`);
 }
 
@@ -151,12 +188,16 @@ const today = toUtcDate(new Date());
 const startDate = new Date(today);
 startDate.setUTCDate(startDate.getUTCDate() - 364);
 const calendarStart = new Date(startDate);
-calendarStart.setUTCDate(calendarStart.getUTCDate() - calendarStart.getUTCDay());
+calendarStart.setUTCDate(
+  calendarStart.getUTCDate() - calendarStart.getUTCDay(),
+);
 
 const monthLabels = buildMonthLabels(startDate, today, calendarStart);
 const totalContributions = await fetchContributionTotal(username, token);
 const hasRealTotal = Number.isFinite(totalContributions);
-const prettyTotal = hasRealTotal ? new Intl.NumberFormat("en-US").format(totalContributions) : "";
+const prettyTotal = hasRealTotal
+  ? new Intl.NumberFormat("en-US").format(totalContributions)
+  : "";
 const countText = hasRealTotal
   ? `<text class="count-text" x="24" y="74">${prettyTotal} contributions in the last year</text>`
   : "";
@@ -169,7 +210,7 @@ const layout = {
   left: 124,
   right: 28,
   top: 100,
-  bottom: 48
+  bottom: 48,
 };
 
 const graphX = layout.left;
