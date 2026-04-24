@@ -8,16 +8,41 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      SNAKE_USERNAME: sayuru-akash
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Snake Animations
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate Snake Base Animations
         uses: Platane/snk@v3.3.0
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ env.SNAKE_USERNAME }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/.snake-base.svg
+            dist/.snake-base-dark.svg?palette=github-dark
+
+      - name: Build Detailed Contribution Snake SVGs
+        run: |
+          node scripts/build-detailed-snake.mjs \
+            --input dist/.snake-base.svg \
+            --output dist/github-snake.svg \
+            --theme light \
+            --username "${{ env.SNAKE_USERNAME }}"
+
+          node scripts/build-detailed-snake.mjs \
+            --input dist/.snake-base-dark.svg \
+            --output dist/github-snake-dark.svg \
+            --theme dark \
+            --username "${{ env.SNAKE_USERNAME }}"
+
+          rm -f dist/.snake-base.svg dist/.snake-base-dark.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Changes
         uses: EndBug/add-and-commit@v9
@@ -25,4 +50,4 @@ jobs:
           author_name: github-actions
           author_email: github-actions@github.com
           message: 'chore: update github contribution snake'
-          add: 'dist/*.svg'
+          add: 'dist/github-snake.svg dist/github-snake-dark.svg'

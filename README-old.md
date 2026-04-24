@@ -120,9 +120,9 @@ const sayuru = {
 ### <img src="https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif" width="10"> Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sayuru-akash/sayuru-akash/raw/main/dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/sayuru-akash/sayuru-akash/raw/main/dist/github-snake.svg" />
-  <img alt="github-snake" src="https://github.com/sayuru-akash/sayuru-akash/raw/main/dist/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg" />
 </picture>
 
 

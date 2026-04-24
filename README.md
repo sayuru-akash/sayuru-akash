@@ -39,5 +39,6 @@ Open to hands-on full stack, backend, or technical delivery roles, including int
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg">
   <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/sayuru-akash/sayuru-akash/main/dist/github-snake.svg" width="100%">
 </picture>
